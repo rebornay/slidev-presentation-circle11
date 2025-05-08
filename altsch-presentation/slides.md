@@ -5,7 +5,7 @@ theme: Default
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Circle-11-Presentation
+title: Welcome to Slidev
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -25,9 +25,9 @@ mdc: true
 #  ogImage: https://cover.sli.dev
 ---
 
-# Welcome to Cicle 11 presentation
+# AltSchool Semester presentation
 
-Circle 11 Presentation
+### **Circle 11 Presentation**
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
@@ -41,6 +41,10 @@ Circle 11 Presentation
     <carbon:logo-github />
   </a>
 </div>
+
+---
+src: ./pages/welcomePage/welcom.md
+---
 
 ---
 src: ./pages/victor/arrays-bundlers.md
@@ -73,3 +77,5 @@ src: ./pages/mujeebat/strings-and-templates.md
 ---
 src: ./pages/edith/conditional-statement.md
 ---
+
+
