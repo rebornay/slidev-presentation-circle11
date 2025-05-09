@@ -1,9 +1,21 @@
-## What are Data Types?
+---
+layout: center
+theme: default
+class: my-theme
 
-**Data types** specify what kind of data a variable holds.
-- **Numbers**: represent *numeric values* for calculations.
-They can be integers or floating-point numbers.
-They are used in calculations like addition, subtraction, etc.
+---
+
+# Data Types
+
+---
+
+# What are Data Types?
+#
+##### **Data types** specify what kind of data a variable holds.
+- ##### **Numbers**: represent *numeric values* for calculations.
+##### They can be integers or floating-point numbers. They are used in calculations like addition, subtraction, etc.
+
+#
 
 ```js  
 let age = 25;             // Integer  
@@ -14,7 +26,7 @@ console.log(price);       // 19.99
 
 ```
 
-Numeric operations
+#### Numeric operations
 ```js
 let a = 10;  
 let b = 3;  
@@ -29,13 +41,12 @@ console.log("hello" - 5); // NaN (result of invalid operations)
 ```
 ---
 
-## Data Types (Cont'd)
+### Data Types (Cont'd)
+#
 
+ - ##### **Booleans**: The simplest data type for logic. They are represented by *true* or *false* values, often used for conditions.
 
-
-
- - **Booleans**: The simplest data type for logic. They are represented by *true* or *false* values, often used for conditions.
-
+#
  
 ```js
 let isRaining = true;  

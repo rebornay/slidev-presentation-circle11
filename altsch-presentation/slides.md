@@ -25,9 +25,10 @@ mdc: true
 #  ogImage: https://cover.sli.dev
 ---
 
-# AltSchool Semester presentation
+## AltSchool Semester presentation
+#
 
-### **Circle 11 Presentation**
+## **Circle 11 Presentation**
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
@@ -71,7 +72,7 @@ src: ./pages/anita/data-types.md
 ---
 
 ---
-src: ./pages/mujeebat/strings-and-templates.md
+src: ./pages/ibukunoluwa/js objects.md
 ---
 
 ---
@@ -79,7 +80,7 @@ src: ./pages/edith/conditional-statement.md
 ---
 
 ---
-src: ./pages/ibukunoluwa/js objects.md
+src: ./pages/mujeebat/strings-and-templates.md
 ---
 
 

@@ -1,34 +1,13 @@
-<!-- ---
-monaco: true
-# You can also start simply with 'default'
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Objects in Javascript
-info: |
-  ## Circle 11 Assignment
-  Presentation slides on Javascript Objects.
+---
+layout: center
+theme: default
+class: my-theme
 
-# apply unocss classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: true
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable MDC Syntax: https://sli.dev/features/mdc
-mdc: true
-# open graph
-# seoMeta:
-#  ogImage: https://cover.sli.dev
-
- -->
+---
 
 # Javascript Objects
 
-A presentation on what we've learnt so far on JS Objects
+
 
 
 <!-- <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
@@ -96,7 +75,7 @@ level: 2 -->
 
 # Introduction to Objects, and syntax
 
-- A non-primitive datatype used to store keyed collections of various data and more complex entities. They are arranged in key-value pairs inside curly braces. 
+- ##### A non-primitive datatype used to store keyed collections of various data and more complex entities. They are arranged in key-value pairs inside curly braces. 
 
 This syntax is called object constuctor
 ```js {monaco}
@@ -118,7 +97,7 @@ user.stack = "Frontend eng"
 Usually, the object constructor method is usually employed.
 ---
 
-## Accessing properties in an object
+# Accessing properties in an object
 Properties in a curly brace  can be accessed either using: 
 1. The dot notation
 ```js
@@ -130,8 +109,8 @@ objectName.propertyName;
 objectName["propertyName"]
 ```
 
-### Property value shorthand
-Sometimes, we use existing values for property name. Instead of repeating this we can implement the shorthand property.
+#### Property value shorthand
+##### Sometimes, we use existing values for property name. Instead of repeating this we can implement the shorthand property.
 
 ```js
 const getUser = (name, age) => {
@@ -236,6 +215,6 @@ for (let key in user) {
 - From object creation to built-in methods like Object.assign() and Object.entries().
 -  There’s still so much more to learn, but understanding the basics has given us a solid foundation to build on as we grow in our journey as world-class developers.
 
-Thank you. 
+
 
 

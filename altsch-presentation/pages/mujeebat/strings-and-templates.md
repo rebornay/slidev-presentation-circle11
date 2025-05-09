@@ -1,29 +1,7 @@
-<style>
-.slidev-layout {
-    padding: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    font-size: 1.45rem;
-}
-
-.result-line {
-    margin-bottom: 1.2rem;
-    line-height: 1.8;
-  }
-
- h1{
-  color: aquamarine;
-  font-size: 3rem;
- } 
-
- h2{
-  color: aquamarine;
- } 
-
-
-</style> 
+---
+layout: center
+theme: default
+class: my-theme
 
 ---
 
@@ -31,7 +9,8 @@
 
 ---
 
-## Understanding strings and concatenation
+
+### Understanding strings and concatenation
 
 <div v-click>
 
@@ -52,6 +31,7 @@ const d = "true"; // string
 ---
 
 # Console output
+#
 
 ```
 console.log (typeof a); // number
@@ -74,7 +54,9 @@ console.log (typeof d); // string
 Think concatenation, think <strong>Chains, Links, Hydrocarbons,</strong> join together. Like prepositions joining sentences.
 The + operator is used for concatenation</span>
 
+
 <span v-click class="result-line">
+
 ```js
 const firstName = 'Mujeebah';
 const nationality = "Nigerian";
@@ -151,3 +133,13 @@ Template literal method
 console.log (`${country} is in ${continent} and its ${population} million people speak ${language}`); 
 ```
 </div>
+
+
+---
+layout: center
+theme: default
+class: my-theme
+
+---
+
+# THANK YOU

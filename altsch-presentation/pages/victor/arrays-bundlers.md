@@ -4,8 +4,13 @@ theme: default
 class: my-theme
 ---
 
+
+
+
 # Arrays in JavaScript
 
+---
+transition: fade-out
 ---
 
 # What is an Array?
@@ -13,7 +18,10 @@ class: my-theme
 An **array** is an ordered collection of values, which can be of any data type, stored under a single variable name.  
 Each value has a **numbered index**, starting from **0**.
 
+#
+
 ```js
+
 const fruits = ["apple", "pawpaw", "orange", "mango", "pineapple"];
 fruits[0]; // "apple"
 fruits[4]; // "pineapple"
@@ -22,6 +30,7 @@ fruits[4]; // "pineapple"
 ---
 
 # Common Array Methods & Properties
+#
 
 <v-clicks>
 
@@ -55,6 +64,8 @@ nums2.pop();
 console.log(nums2); // [1, 2]
 ```
 
+---
+transition: fade-out
 ---
 
 # More Array Methods
@@ -92,6 +103,8 @@ const doubled = nums5.map(n => n * 2);
 console.log(doubled); // [2, 4, 6]
 ```
 
+---
+transition: fade-out
 ---
 
 # Even More Array Methods
@@ -189,6 +202,7 @@ console.log(allFruits); // ["apple", "orange", "banana", "mango"]
 ---
 
 # JavaScript Bundle
+#
 
 A **bundler** combines your JavaScript (and assets) into fewer files—usually just one.
 
@@ -208,6 +222,7 @@ Used tools: **Webpack**, **Vite**, **Parcel**, **Rollup**
 ---
 
 # 🧩 Why Use JavaScript Bundles?
+#
 
 Bundlers solve limitations of native ES Modules in browsers.
 

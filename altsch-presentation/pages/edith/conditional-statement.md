@@ -1,3 +1,14 @@
+---
+layout: center
+theme: default
+class: my-theme
+
+---
+
+# Conditional Statement
+
+---
+
 # Conditional Statements
 Ever heard of **conditionals**?
 
@@ -66,7 +77,9 @@ if (edith === 'lady') {
 
 ---
 
-## How it works;
+# How it works
+#
+
 1. **edith** was declared as a variable and the value **lady** was assigned to it.
 2. The if statement checks whether **edith** is equal to **lady**.
 3. Since **edith** is equal to **lady**, the condition is true and the code inside the if block is executed and thereby logs **Edith will join the ladys team** to the console.
@@ -111,9 +124,9 @@ Therefore, the code blocks associated with the else if and else clauses doesnt e
 ---
 
  ### Nested if conditional statement
-The **nested if** statement evaluates conditions hierarchically. 
-It consists of an **outer if** statement and one or more inner if statements, its syntax is as follows;
+##### The **nested if** statement evaluates conditions hierarchically. It consists of an **outer if** statement and one or more inner if statements, its syntax is as follows;
  
+ # 
 ```js
 if (condition1) {
     if (condition2) {
@@ -126,7 +139,6 @@ if (condition1) {
  }
  ```
 
----
 
 #### sample code
 
@@ -148,15 +160,12 @@ if (condition1) {
 ---
 
 # Code explanation
-Here, two variables **edith** and **age** were assigned values **lady** and **20** respectively.  while the nested if statement was used to evaluate the conditions **hierarchically**, the **outer if** statement checked whether edith was **equal** to lady.
-since  the condition was true, we moved on to the **inner if** statement.
-the inner if statement checked whether **age** is **greater than or equal** to **18**, since the condition is also true, the code block associated with it was executed which logged **edith is a lady and also an adult to the console**. The code blocks associated with the else clauses were not executed because the outer and inner if statements were **true**
+##### Here, two variables **edith** and **age** were assigned values **lady** and **20** respectively.  while the nested if statement was used to evaluate the conditions **hierarchically**, the **outer if** statement checked whether edith was **equal** to lady. since  the condition was true, we moved on to the **inner if** statement.the inner if statement checked whether **age** is **greater than or equal** to **18**, since the condition is also true, the code block associated with it was executed which logged **edith is a lady and also an adult to the console**. The code blocks associated with the else clauses were not executed because the outer and inner if statements were **true**
 
- ---
+ #
 
-# Switch Statements
-The javascript **switch statement** is a control structure that allows the execution of different blocks of code based on the **case value of a variable or expression** .
-It is a more concise and readable alternative to using **multiple if-else statements**, it follows the syntax below;
+### Switch Statements
+##### The javascript **switch statement** is a control structure that allows the execution of different blocks of code based on the **case value of a variable or expression** .It is a more concise and readable alternative to using **multiple if-else statements**, it follows the syntax below;
   
    ```js
    switch (expression) {

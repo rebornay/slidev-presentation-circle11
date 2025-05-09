@@ -9,25 +9,23 @@ class: my-theme
 
 ---
 
-### Promises in JavaScript
-#
+# Promises in JavaScript
 
-```markdown
 
-A Promise is an object that represents the result of an asynchronous operation. It may succeed or fail in the future.
-## Promises uses two functions which are `resolve` and `reject` 
+#### A Promise is an object that represents the result of an asynchronous operation. It may succeed or fail in the future.
+#### Promises uses two functions which are `resolve` and `reject` 
 
-# Three States of a Promise
+### Three States of a Promise
 
-1. Pending – The operation hasn’t completed yet  
-2. Fulfilled – The operation completed successfully  
-3. Rejected – The operation failed
+##### 1. Pending – The operation hasn’t completed yet  
+##### 2. Fulfilled – The operation completed successfully  
+##### 3. Rejected – The operation failed
 
 #
 
-```
 
-```js  {monaco-run}
+
+```js {monaco-run} {autorun:false}
 
 const myPromise = new Promise((resolve, reject) => {
   const success = true
@@ -64,7 +62,7 @@ The fetch() function returns a Promise. We can use .then() to handle a successfu
 
 
 
-```js 
+```js {monaco-run} {autorun:false}
 
 fetch("https://jsonplaceholder.typicode.com/users")
   .then(response => response.json())
@@ -114,7 +112,7 @@ This is a cleaner way to use `fetch` with async/await instead of chaining `.then
 
 
 
-```js {monaco-run}
+```js {monaco-run} {autorun:false}
 
 async function loadUsers() {
   try {
@@ -132,24 +130,30 @@ loadUsers()
 ```
 ---
 
-### APIs in web development
-An **API** (Application Programming Interface) allows different software systems to talk to each other. We use APIs to **send or receive data**, like getting users from a server or posting form data.
+# APIs in web development
+#### An **API** (Application Programming Interface) allows different software systems to talk to each other. We use APIs to **send or receive data**, like getting users from a server or posting form data.
+#
 
-It acts like a **messenger** that takes your request, tells another system what you want, then brings the response back.
+#### It acts like a **messenger** that takes your request, tells another system what you want, then brings the response back.
 #
 
 ### API Methods (Actions)
+#
 
-APIs usually use **HTTP methods** to perform actions:
+#### APIs usually use **HTTP methods** to perform actions:
+#
 
-- `GET`: Fetch or retrieve data  
-- `POST`: Send or create data  
-- `PUT`: Update data  
-- `DELETE`: Remove data
+ - #### `GET`: Fetch or retrieve data  
+- #### `POST`: Send or create data  
+- #### `PUT`: Update data  
+- #### `DELETE`: Remove data
 
 --- 
 
-```js {monaco-run}
+### Api POST Method
+#
+
+```js {monaco-run} {autorun:false}
 
 async function createPost() {
   try {
