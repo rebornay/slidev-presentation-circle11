@@ -1,4 +1,4 @@
----
+<!-- ---
 monaco: true
 # You can also start simply with 'default'
 theme: seriph
@@ -24,13 +24,14 @@ mdc: true
 # seoMeta:
 #  ogImage: https://cover.sli.dev
 
----
+ -->
 
 # Javascript Objects
 
 A presentation on what we've learnt so far on JS Objects
 
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
+
+<!-- <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   Press Space for next page <carbon:arrow-right />
 </div>
 
@@ -41,7 +42,7 @@ A presentation on what we've learnt so far on JS Objects
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
-</div>
+</div> -->
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
@@ -72,7 +73,7 @@ You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/features/slide-scope-style
 -->
 
-<style>
+<!--<style>
 h1 {
   background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
@@ -82,15 +83,15 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-</style>
+</style>-->
 
 <!--
 Here is another comment.
 -->
 
----
+<!-- ---
 transition: slide-up
-level: 2
+level: 2 -->
 ---
 
 # Introduction to Objects, and syntax
@@ -224,7 +225,9 @@ for (let key in user) {
   alert( key ); // club, alias, winningtheUCL
   console.log( user[key] ); // Arsenal, Gunners, false
 }
+
 ---
+
 # Conclusion
 
 - JavaScript objects are a foundational part of the language; powerful, flexible, and essential for organizing and working with data. 

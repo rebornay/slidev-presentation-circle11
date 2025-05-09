@@ -1,3 +1,14 @@
+---
+layout: center
+theme: default
+class: my-theme
+
+---
+
+# Promises, Async/Await & Api
+
+---
+
 ### Promises in JavaScript
 #
 
