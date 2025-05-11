@@ -1,0 +1,6 @@
+import{b as a,o as i,w as u,g as e,i as s,ad as o,v as p,x as m,X as r}from"./modules/vue-CavWsLDq.js";import{I as d}from"./slidev/default-huDZ4KVH.js";import{u as c,f}from"./slidev/context-CoV2oJe4.js";import"./index-BLZkNr6S.js";import"./monaco/bundled-types-Dncha9sT.js";import"./modules/file-saver-BzOOqXCn.js";import"./modules/shiki-CZ8Mz3g_.js";const P={__name:"js objects.md__slidev_47",setup(b){const{$clicksContext:n,$frontmatter:l}=c();return n.setup(),(g,t)=>(i(),a(d,p(m(r(f)(r(l),46))),{default:u(()=>[t[0]||(t[0]=e("h1",null,"Presentation Outline",-1)),t[1]||(t[1]=e("ul",null,[e("li",null,"Introduction to Objects, and its syntax"),e("li",null,"Assessing objects property"),e("li",null,"Property value shorthand"),e("li",null,"Reassigning values"),e("li",null,"Objects.assign()"),e("li",null,"Objects.entries()"),e("li",null,[o("for-in loop -conclusion "),e("br"),e("br")])],-1)),t[2]||(t[2]=e("p",null,[o("Read more about "),e("a",{href:"https://sli.dev/guide/why",target:"_blank"},"Why Slidev?")],-1)),s(`
+You can have \`style\` tag in markdown to override the style for the current page.
+Learn more: https://sli.dev/features/slide-scope-style
+`),s(""),s(`
+Here is another comment.
+`)]),_:1},16))}};export{P as default};
