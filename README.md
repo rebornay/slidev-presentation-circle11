@@ -17,4 +17,4 @@ Circle 11 slide presentation summarizing our learnings at AltSchool this semeste
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/slidev-presentation-circle11.git
-   cd circle11-presentation
+   cd slidev-presentation-circle11
