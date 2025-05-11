@@ -44,43 +44,43 @@ mdc: true
 </div>
 
 ---
-src: ./pages/welcomePage/welcom.md
+@include: ./pages/welcomePage/welcom.md
 ---
 
 ---
-src: ./pages/victor/arrays-bundlers.md
+@include: ./pages/victor/arrays-bundlers.md
 ---
 
 ---
-src: ./pages/samson/functions.md
+@include: ./pages/samson/functions.md
 ---
 
 ---
-src: ./pages/bridget/promises.md
+@include: ./pages/bridget/promises.md
 ---
 
 ---
-src: ./pages/ayomide/dom.md
+@include: ./pages/ayomide/dom.md
 ---
 
 ---
-src: ./pages/teminire/loops.md
+@include: ./pages/teminire/loops.md
 ---
 
 ---
-src: ./pages/anita/data-types.md
+@include: ./pages/anita/data-types.md
 ---
 
 ---
-src: ./pages/ibukunoluwa/js objects.md
+@include: ./pages/ibukunoluwa/js objects.md
 ---
 
 ---
-src: ./pages/edith/conditional-statement.md
+@include: ./pages/edith/conditional-statement.md
 ---
 
 ---
-src: ./pages/mujeebat/strings-and-templates.md
+@include: ./pages/mujeebat/strings-and-templates.md
 ---
 
 
