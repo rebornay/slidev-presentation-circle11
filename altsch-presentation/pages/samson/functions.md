@@ -64,7 +64,7 @@ getUserId();
 
 # Arrow Function
 
-Arrow functions are a shorter way to write function expressions. They use =>.
+Arrow functions are a shorter way to write function expressions. 
 
 ```js {monaco-run} {autorun:false} 
 const getUserId = () => {
